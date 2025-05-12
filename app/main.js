@@ -108,15 +108,7 @@ const editarElContacto = (e)=>{
 const addContact = (e)=>{
     //Evito que la página se recargue al mandar el formulario
     e.preventDefault();
-    
-    //
-    let newContact = {
-        id : contacts.length,
-        nombre : nombreContact.value,
-        phone: phoneContact.value
-    }
 
-    contacts.push(newContact);
     pintarDatos();
 
     addForm.reset();
