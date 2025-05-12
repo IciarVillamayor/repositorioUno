@@ -1,9 +1,5 @@
 let contacts = [
-    {
-        id : 0,
-        nombre : "Pedro",
-        phone : "56398265"
-    },
+
     {
         id : 1,
         nombre : "María",
